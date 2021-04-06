@@ -1,9 +1,11 @@
 #importing OS module to clear terminal
 import os
 
+
 #function to clear the terminal
 def clear():
     os.system('cls')
+
 
 #function to clear any items currently being displayed
 #& to print the current status of the board
@@ -13,7 +15,6 @@ def print_board(a, b, c):
     print(b)
     print(a)
     print("\n")
-
 
 
 #function to start the current player's turn
@@ -72,7 +73,6 @@ def update_board(a,b,c, single_list):
 
 
 #function to check all possible combinations for a Win
-
 def check_board(a,b,c, player):
     #
     if player == "O":
